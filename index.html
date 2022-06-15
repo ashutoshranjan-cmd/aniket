@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background:linear-gradient(to right ,yellow, green);
+        }
+        nav{
+            border: 5px solid ;
+            height: 70px;
+            width: 98%;
+            margin-right: 5px;
+            border-radius: 5px;
+            background-color: black;
+            color: white;
+            font-size: 1rem;
+            margin-top: 8px;
+            margin-left: 5px;
+            
+        }
+     
+        #i1{
+            height: 40px;
+            padding: 5px;
+        }
+        .photo img{
+            margin-top: 20px;
+            margin-left: 30px;
+            height: 25rem;
+            width: 25rem;
+            border: 5px solid white;
+            border-radius: 10px;
+        }
+        .info{
+            height: 22.5rem;
+            width: 40rem;
+            margin-left: 40px;
+            margin-top: 50px;
+            font-size: 50PX;
+            font-weight: bold;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        .photo{
+            display: flex;
+
+        }
+        .temp{
+            display: flex;
+            align-items: center;
+        }
+        footer{
+            border: 5px solid white;
+            background-color: black;
+            color: white;
+            margin-top: 6rem;
+            margin-left: 5px;
+            margin-right: 5px;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+        @media screen and (max-width: 700px)
+        {
+            nav{
+                width: 95%;
+            }
+            .photo{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            .photo img{
+                height: 15rem;
+                width: 15rem;
+            }
+            .info{
+                height: 15rem;
+                width: 15rem;
+                font-size: 25px;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <marquee behavior="" direction="right to left">
+                <div class="temp">
+                <img id="i1" src="LNMI.png" alt=""> 
+                 <p>LN MISHRA INSTITUTE OF ECONOMIC DEVELOPMENT AND SOCIAL CHANGE </p> </marquee>
+                </div>
+        </ul>
+    </nav>
+    <div class="photo">
+        <img src="aniket.jpeg" alt="not found" class="src">
+        <div class="info">
+            NAME : ANIKET KUMAR<br>
+            COURSE : BCA <br>
+            SECTION : 'A'<br>
+            ROLL : 20613<br>
+            SESSION : 2020 - 2023
+
+        </div>
+    </div>
+</body>
+<footer>
+    <p>This webpage is copyrighted &copy 2022</p>
+</footer>
+</html>
